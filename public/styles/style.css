@@ -1,0 +1,123 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to center, rgba(0, 0, 0, 0.1));
+}
+/* about */
+.img-about{
+   border-radius: 50%;
+}
+.img-user{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 2rem;
+   padding: 2rem;
+   transition: all .2s ease-in-out;
+   
+}
+
+.detail-poub:hover{
+    transform: translateY(-3px) scale(1.1);
+}
+.user-item-poub{
+    max-width: 30vw;
+    height: 50%;
+    border-radius: 10px;
+}
+.about-poubel{
+   margin: 0 auto;
+}
+.gr-dev{
+    color: greenyellow;
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+/* contact */
+.contac-poub{
+    text-align: center;
+}
+
+.main-poub{
+    min-height: 90vh;
+    background-image: url("/images/welkom-pub.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    display: grid;
+    place-items: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.main-sous{
+    max-width: 40vw;
+}
+img{
+    max-width: 100%;
+}
+.titre-poub{
+    font-size: 3rem;
+    color: green;
+    letter-spacing: 2px;
+}
+.para-poub{
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    color: #fff;
+}
+/* decouvrir */
+.poub-d{
+    text-transform: uppercase;
+    background-color: greenyellow;
+    padding: .75rem 1.5rem;
+    margin-top: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+
+/* carousel */
+.poub-carou{
+  margin-top: 1.5rem;
+  max-width: 60vw;
+  margin: 0 auto;
+}
+
+.img-poub-carou{
+    margin-top: 1em;
+    max-width: 20vw;
+    border-radius: 5px;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+#poub-carou{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer{
+    padding: 2rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: rgb(31, 59, 31);
+    color: #fff;
+}
